@@ -22,10 +22,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: black;
+    --bg-color: #161e27;
     --bg-color-muted: #333;
-    --text-color: white;
-    --text-color-muted: #999;
+    --text-color: #f1f3f5;
+    --text-color-muted: #93a5b7;
     --blockquote-color: lightgreen;
     --sticky-color: #014413;
     --gilded: gold;
