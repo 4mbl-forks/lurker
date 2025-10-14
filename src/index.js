@@ -11,6 +11,8 @@ module.exports = { JWT_KEY };
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
 
+app.set('trust proxy', 1);
+
 const routes = require("./routes/index");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
